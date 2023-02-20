@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles2.css">
+    <title>Titulares Ania Khiari</title>
+</head>
+<body>
+    <div class="container-fila">
+        <h5 id="tituloUsuario"></h5>
+        <input id="cerrarSesion" type="button" value="Cerrar Sesión"></input>
+      </div>
+      
+    <div id="contenedor">    
+    <tbody>
+        <table id="miTabla">
+            <thead>
+                <th>Entidad</th>
+                <th>IBAN</th>
+                <th>Número de cuenta</th>
+            </thead>
+        </table><br><br>
+        <h3>Lista de movimientos de la cuenta</h3>
+          <form id="orden">
+            <label><input type="radio" name="ordenamiento"  value="asc" checked> Por fecha</label>
+            <label><input type="radio" name="ordenamiento" value="desc"> Por importe</label>
+          </form>
+          <table id="miTabla2">
+            <thead>
+                <th>Tipo</th>
+                <th>Fecha</th>
+                <th>Importe</th>
+            </thead>
+        </table><br><br>
+        </table>  
+    </tbody>
+</div>
+</body>
+<script src="./main2.js"></script>
+</html>

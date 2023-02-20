@@ -1,0 +1,35 @@
+
+{
+"titulares":[{
+    "dni":"11111111A","nombre":"Pepe","clave":"123456","cuentas":[{
+        "numero":"11111111111111111111",
+            "movimientos":
+            [
+                {"importe":100,"fecha":"2020-11-19","tipo":"Imposición"},
+                {"importe":300,"fecha":"2020-11-10","tipo":"Reintegro"},
+                {"importe":50,"fecha":"2020-11-02","tipo":"Imposición"},
+                {"importe":250,"fecha":"2020-11-10","tipo":"Reintegro"}
+            ]},
+        {"numero":"11111111111111111112",
+            "movimientos":
+            [
+                {"importe":102,"fecha":"2020-11-09","tipo":"Reintegro"},
+                {"importe":92,"fecha":"2020-11-20","tipo":"Imposición"},
+                {"importe":252,"fecha":"2020-11-10","tipo":"Reintegro"}
+            ]}
+        ]},
+    {"dni":"22222222A","nombre":"Nieves","clave":"654321","cuentas":[{
+        "numero":"11111111111111111121",
+            "movimientos":
+            [
+                {"importe":100,"fecha":"2020-11-09","tipo":"Imposición"},
+                {"importe":200,"fecha":"2020-11-10","tipo":"Imposición"},
+                {"importe":250,"fecha":"2020-11-10","tipo":"Reintegro"},
+                {"importe":103,"fecha":"2020-11-09","tipo":"Imposición"},
+                {"importe":203,"fecha":"2020-11-10","tipo":"Imposición"},
+                {"importe":253,"fecha":"2020-11-10","tipo":"Reintegro"}
+            ]
+        }]
+    }]
+}
+
